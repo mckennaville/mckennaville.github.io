@@ -5,8 +5,8 @@ body {
 }
 
 #home {
-	height: 80%;
-	/*Horiztonally and vertically centering content"*/
+height: 80%;
+/*Horiztonally and vertically centering content"*/
 text-align: center;
 display: flex;
 flex-direction: column;
@@ -15,13 +15,13 @@ align-items: center;
 }
 
 #aboutMe {
-	text-align: center;
-	font-family: helvetica;
+text-align: center;
+font-family: helvetica;
 }
 
 #contact {
-	text-align: center;
-	background-color: #9CDDEF;
+text-align: center;
+background-color: #9CDDEF;
 }
 
 #findme, #reachme {
@@ -29,8 +29,8 @@ color: white;
 }
 
 #random {
-	background-color: #9CDDEF;
-	color: white;
+background-color: #9CDDEF;
+color: white;
 }
 
 .navbar {
@@ -40,27 +40,27 @@ background-color: white;
 }
 
 .jumbotron{
-	background-color: white;
+background-color: white;
 }
 
 .landing-title {
-	font-size: 60px;
-	color: #85C1E9;
+font-size: 60px;
+color: #85C1E9;
 }
 
 .nav .navbar-nav a:hover:not(.active) {
-    background-color: #9CDDEF;
+background-color: #9CDDEF;
 }
 
 h1 {
-	font-family: bromello;
-	font-size: 60px;
-	color: #9CDDEF;
+font-family: bromello;
+font-size: 60px;
+color: #9CDDEF;
 }
 
 p {
-    font-family: helvetica;
-		font-size: 15px;
+font-family: helvetica;
+font-size: 15px;
 }
 
 .navbar-default {
@@ -76,30 +76,30 @@ p {
  background-color: #9CDDEF !important;
 }
 
- .navbar-default {
-     background-color: white;
-     border-color: grey;
-     border-radius: 0;
+.navbar-default {
+background-color: white;
+border-color: grey;
+border-radius: 0;
  }
 
- .container {
+.container {
    position: relative;
    width: 50%;
  }
 
- .image {
-   display: block;
-   width: 100%;
-   height: auto;
-	 margin-left: auto;
-	 margin-right: auto;
+.image {
+display: block;
+width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
  }
 
  .overlay {
-   position: absolute;
-   bottom: 0;
-   left: auto;
-   ight: auto;
+position: absolute;
+bottom: 0;
+left: auto;
+right: auto;
    background-color: #9CDDEF;
    overflow: hidden;
    width: 0;
