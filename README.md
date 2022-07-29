@@ -1,3 +1,3 @@
 # mckennaville.github.io
 
-Messed around and wanted to claim my website domain.
+Wanted to create my own website and claim my personal domain! Hope you ejoy :)
