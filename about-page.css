@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.left-square-div {
+  position: absolute;
+  top: 83px;
+  left: 153px;
+  background-color: #018faa;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1138px;
+  height: 941px;
+}
+.blank-line-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.she-is-a-natural-leader-and-be {
+  margin: 0;
+}
+.mckenna-is-a-creative-at-heart {
+  position: absolute;
+  top: 149px;
+  left: 222px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 988px;
+  height: 846px;
+}
+.about-icon,
+.about-tape-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 586.53px;
+  height: 321.38px;
+  object-fit: cover;
+}
+.about-icon {
+  width: 449.36px;
+  height: 278.71px;
+}
+.pngtreewhite-transparent-tape,
+.profile-pic-icon {
+  position: absolute;
+  top: 423.76px;
+  left: 551.62px;
+  width: 331.32px;
+  height: 338.15px;
+  object-fit: cover;
+}
+.pngtreewhite-transparent-tape {
+  top: 369.75px;
+  left: 473.14px;
+  width: 458.56px;
+  height: 136.72px;
+}
+.about-page-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
