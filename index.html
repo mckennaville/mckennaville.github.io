@@ -18,15 +18,15 @@
         <img class="white-name-icon" alt="my name" src="img/white name.png">
         
         <div>
-              <button class="resume-tape-button" autofocus="">
+              <button class="resume-tape-button" autofocus="" id="resumeButton">
                 <img class="resume-tape" atl="resume tape" src="img/resume tape.png" style="position: relative; top: 0; left: 0;">
                 <img class="resume-word" atl="resume word" src="img/resume.png" style="position: absolute; top: 10px; left: 65px;">
               </button>
-              <button class="about-tape-button" autofocus="">
+              <button class="about-tape-button" autofocus="" id="aboutButton">
                 <img class="about-tape" atl="about tape" src="img/about tape.png" style="position: relative; top: 0; left: 0;">
                 <img class="about-word" atl="about word" src="img/about.png" style="position: absolute; top: 10px; left: 65px;">
               </button>
-              <button class="contact-tape-button" autofocus="" id="contactTapeButton">
+              <button class="contact-tape-button" autofocus="" id="contactButton">
                 <img class="contact-tape" atl="contact tape" src="img/contact tape.png" style="position: relative; top: 0; left: 0;">
                 <img class="contact-word" atl="contact word" src="img/contact.png" style="position: absolute; top: 10px; left: 65px;">
               </button>
@@ -34,12 +34,12 @@
       </div>
 
       <script>
-        var contactTapeButton = document.getElementById("aboutButton");
-        if (contactTapeButton) {
-          contactTapeButton.addEventListener("click", function (e) {
-            window.location.href = "./contact-page.html"
-          });
-        }
+//         var contactTapeButton = document.getElementById("contactButton");
+//         if (contactTapeButton) {
+//           contactTapeButton.addEventListener("click", function (e) {
+//             window.location.href = "./contact-page.html"
+//           });
+//         }
 
         var aboutButton = document.getElementById("aboutButton");
         if (aboutButton) {
