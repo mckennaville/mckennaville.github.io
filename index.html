@@ -1,66 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="initial-scale=1, width=device-width">
-      <title>McKenna Ville</title>
-      <meta name="description" content="a personal site for McKenna Ville">
-
-      <link rel="stylesheet" href="index.css" />
-
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>McKenna Ville</title>
+    <meta name="description" content="McKenna Ville — Tech, Product, and Operations.">
+    <link rel="icon" href="img/website_favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   </head>
-
   <body>
-      <div class="landing-page-div">
-        <img class="water-background-icon" alt="water background" src="img/water background.png">
-        <img class="white-name-icon" alt="my name" src="img/white name.png">
-        
-        <div>
-              <button class="resume-tape-button" autofocus="" id="resumeButton">
-                <img class="resume-tape" atl="resume tape" src="img/resume tape.png" style="position: relative;top: 500px;left: 320px;">
-                <img class="resume-word" atl="resume word" src="img/resume.png" style="position: absolute;top: 530px;left: 400px;">
-              </button>
-              <button class="about-tape-button" autofocus="" id="aboutButton">
-                <img class="about-tape" atl="about tape" src="img/about tape.png" style="position: relative; top: 0; left: 0;">
-                <img class="about-word" atl="about word" src="img/about.png" style="position: absolute; top: 10px; left: 65px;">
-              </button>
-              <button class="contact-tape-button" autofocus="" id="contactButton">
-                <img class="contact-tape" atl="contact tape" src="img/contact tape.png" style="position: relative; top: 0; left: 0;">
-                <img class="contact-word" atl="contact word" src="img/contact.png" style="position: absolute; top: 10px; left: 65px;">
-              </button>
+
+    <!-- Nav -->
+    <nav class="nav">
+      <a href="#hero" class="nav-name">McKenna Ville</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="resume-page.html">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+      <img
+        class="hero-photo"
+        src="img/headshot.jpg"
+        alt="McKenna Ville"
+      >
+      <div class="hero-text">
+        <p class="hero-tagline">Tech &middot; Product &middot; Operations</p>
+        <h1 class="hero-name">McKenna<br>Ville</h1>
+        <p class="hero-desc">
+          Building things at the intersection of technology and creative strategy.
+        </p>
+        <a href="#projects" class="btn">See what I'm building &rarr;</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about-inner">
+        <img
+          class="about-photo"
+          src="img/headshot.jpg"
+          alt="McKenna Ville"
+        >
+        <div class="about-text">
+          <p class="section-label">About</p>
+          <h2 class="section-heading">hi, I'm McKenna.</h2>
+          <p>
+            Creative at heart, with a technical edge. I've built a career at the
+            intersection of technology, policy, and operations &mdash; thriving
+            wherever big, complex problems need to be broken down and shipped.
+          </p>
+          <p>
+            Right now I'm channeling that energy into building something new.
+            A product is in the works &mdash; details coming soon.
+          </p>
+          <p>
+            When I'm not at my desk, you'll find me maintaining my Wordle streak,
+            crushing the NYT Mini Crossword, and mentally preparing my Jeopardy
+            strategy.
+          </p>
+          <a href="#contact" class="btn btn-warm">Get in touch &rarr;</a>
         </div>
       </div>
+    </section>
 
-      <script>
-//         var contactTapeButton = document.getElementById("contactButton");
-//         if (contactTapeButton) {
-//           contactTapeButton.addEventListener("click", function (e) {
-//             window.location.href = "./contact-page.html"
-//           });
-//         }
+    <!-- Projects -->
+    <section id="projects">
+      <div class="projects-inner">
+        <p class="section-label">Projects</p>
+        <h2 class="section-heading">Things I'm building.</h2>
+        <div class="project-card">
+          <span class="badge">Coming Soon</span>
+          <p class="project-title">Something new.</p>
+          <p class="project-desc">
+            A product is in the works. Details coming soon.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        var aboutButton = document.getElementById("aboutButton");
-        if (aboutButton) {
-          aboutButton.addEventListener("click", function (e) {
-            window.location.href = "./about-page.html"
-          });
-        }
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-inner">
+        <p class="section-label">Contact</p>
+        <h2 class="section-heading">Let's connect.</h2>
+        <ul class="contact-list">
+          <li>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0L12 13.5l-9.75-6.75" />
+            </svg>
+            <a href="mailto:mckennaville2015@gmail.com">mckennaville2015@gmail.com</a>
+          </li>
+          <li>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+            </svg>
+            Atlanta, GA
+          </li>
+          <li>
+            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            <a href="https://www.linkedin.com/in/mckennaville" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-        var contactButton = document.getElementById("contactButton");
-        if (contactButton) {
-          contactButton.addEventListener("click", function (e) {
-            window.location.href = "./contact-page.html"
-          });
-        }
-
-        var resumeButton = document.getElementById("resumeButton");
-        if (resumeButton) {
-          resumeButton.addEventListener("click", function (e) {
-            window.location.href = "./resume-page.html"
-          });
-        }
-      </script>
-    </body>
+  </body>
 </html>
