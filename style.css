@@ -293,6 +293,38 @@ a {
   opacity: 0.6;
 }
 
+.project-card--wide {
+  grid-column: 1 / -1;
+}
+
+.project-metrics {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.metric-value {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+}
+
+.metric-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+
 .project-img {
   width: 100%;
   aspect-ratio: 16 / 9;
